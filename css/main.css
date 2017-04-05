@@ -1,0 +1,154 @@
+﻿
+/** Nav Bar #FF5C5C**/
+.navbar-default {
+	background-color: #ffffff;
+	border-color: #ffffff;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 1.714285714rem;
+}
+.navbar-default .navbar-brand {
+  color: #000000;
+  font-family: 'Cinzel Decorative', cursive;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #FF5C5C
+}
+.navbar-default .navbar-text {
+  color: #000000;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #000000;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #FF5C5C;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #FF5C5C;
+  background-color: #FF5C5C;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #FF5C5C;
+  background-color: #FF5C5C;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000000;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #000000;
+}
+.navbar-default .navbar-link {
+  color: #000000;
+}
+.navbar-default .navbar-link:hover {
+  color: #FF5C5C;
+}
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #000000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #FF5C5C
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #FF5C5C;
+    background-color: #FF5C5C;
+  }
+}
+
+
+h1{
+	font-size:  5rem;
+	font-family: font-family: 'Patrick Hand', cursive;
+}
+
+#company--quote{
+	color: #808080;
+	font-family: 'Bad Script', cursive;
+	font-size: 2rem;
+}
+
+.name{
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 7rem;
+}
+
+
+.dsktop-padding-top{
+	padding-top:200px;
+}
+
+p{
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.title{
+	font-family: 'Patrick Hand', cursive;
+	font-size: 2rem;
+	color: #808080;
+	margin-top: 0;
+}
+
+#contact-icons{
+	font-size: 2rem;
+	
+}
+#under-construction-text{
+	font-family: 'Clicker Script', cursive;
+	font-size: 8rem;
+}
+
+a{
+	text-decoration: none !important;
+	color: #808080;
+}
+
+a:hover, a:focus{
+	color: #FF5C5C;
+}
+
+@media (max-width: 767px) {
+	.name{
+		font-family: 'Cinzel Decorative', cursive;
+		font-size: 4rem;
+	}
+	
+	.title{
+		font-family: 'Patrick Hand', cursive;
+		font-size: 1.5rem;
+		color: #808080;
+		margin-top: 0;
+	}	 
+	#under-construction-text{
+		font-family: 'Clicker Script', cursive;
+		font-size: 5rem;
+	}
+}
+
+
