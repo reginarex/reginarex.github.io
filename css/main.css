@@ -133,12 +133,12 @@ a:hover, a:focus{
 @media (max-width: 767px) {
 	.name{
 		font-family: 'Cinzel Decorative', cursive;
-		font-size: 6rem;
+		font-size: 5rem;
 	}
 	
 	#under-construction-text{
 		font-family: 'Clicker Script', cursive;
-		font-size: 6.5rem;
+		font-size: 5rem;
 	}
 }
 
