@@ -133,9 +133,15 @@ a:hover, a:focus{
 @media (max-width: 767px) {
 	.name{
 		font-family: 'Cinzel Decorative', cursive;
-		font-size: 5rem;
+		font-size: 4rem;
 	}
 	
+	.title{
+		font-family: 'Patrick Hand', cursive;
+		font-size: 1.5rem;
+		color: #808080;
+		margin-top: 0;
+	}	 
 	#under-construction-text{
 		font-family: 'Clicker Script', cursive;
 		font-size: 5rem;
