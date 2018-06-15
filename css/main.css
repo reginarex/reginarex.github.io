@@ -119,6 +119,15 @@ a:hover{
   color: #EC0868;
 }
 
+.dreu-link{
+  color: #27ae60;
+}
+.dreu-link:hover{
+  background-color: #27ae60;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 ul {
  list-style-type: circle;
  padding-left: 55px;
