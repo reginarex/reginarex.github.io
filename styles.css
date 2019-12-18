@@ -214,7 +214,7 @@ a:hover {
   color: var(--dark-blue);
 }
 
-.the-line {
+.underline {
   border-bottom: 2px solid var(--dark-blue);
 }
 
