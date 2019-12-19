@@ -3,7 +3,7 @@
   color: #9900FF;
 }
 
-.dark-blue {
+.dark-orange {
   color: #FF5733;
 }
 
@@ -42,7 +42,6 @@ a:hover {
   color: #ffffff;
   text-decoration: none;
 }
-
 
 /** Class Selectors **/
 .menu-bar {
@@ -155,7 +154,6 @@ a:hover {
   #highlights {
     padding: 0;
   }
-
 }
 
 /*collapsible */
