@@ -1,32 +1,32 @@
 function grabChangelog() {
-    return fetch('http://beriwanravandi.me/changelog.json/', {
+    return fetch('', {
         mode: 'cors'
-    }).then(function(response) {
+    }).then(function (response) {
         return response.json();
     });
 }
 
 function grabProjects() {
-    return fetch('http://beriwanravandi.me/projects.json/', {
+    return fetch('', {
         mode: 'cors'
-    }).then(function(response) {
+    }).then(function (response) {
         return response.json();
     });
 }
 
 function grabFeatures() {
-    return fetch('http://beriwanravandi.me/features.json/', {
+    return fetch('', {
         mode: 'cors'
-    }).then(function(response) {
+    }).then(function (response) {
         return response.json();
     });
 }
 
 function changelog() {
     var h = document.getElementById('changelog');
-    grabChangelog().then(function(response) {
+    grabChangelog().then(function (response) {
         document.getElementsByClassName('loading')[0].classList.add('hide');
-        response.data.forEach(function(x) {
+        response.data.forEach(function (x) {
             h.innerHTML += '<li class="' +
                 '"><div class="left">' + x.date +
                 '</div><div class="desc"><div>' + x.description.what + ' ' +
@@ -38,9 +38,9 @@ function changelog() {
 
 function projects() {
     var h = document.getElementById('projects');
-    grabProjects().then(function(response) {
+    grabProjects().then(function (response) {
         document.getElementsByClassName('loading')[0].classList.add('hide');
-        response.data.forEach(function(x) {
+        response.data.forEach(function (x) {
             h.innerHTML += '<li class="' +
                 '"><div class="left">' + x.date +
                 '</div><div class="desc"><div>' + x.description.what + ' ' +
@@ -52,9 +52,9 @@ function projects() {
 
 function features() {
     var h = document.getElementById('features');
-    grabFeatures().then(function(response) {
+    grabFeatures().then(function (response) {
         document.getElementsByClassName('loading')[0].classList.add('hide');
-        response.data.forEach(function(x) {
+        response.data.forEach(function (x) {
             h.innerHTML += '<li class="' +
                 '"><div class="left">' + x.date +
                 '</div><div class="desc"><div>' + x.description.what + ' ' +
@@ -66,8 +66,8 @@ function features() {
 
 function expandGroups(event) {
     var els = document.getElementsByClassName('title');
-    Array.prototype.forEach.call(els, function(el) {
-        el.addEventListener(event, function() {
+    Array.prototype.forEach.call(els, function (el) {
+        el.addEventListener(event, function () {
             el.parentElement.classList.toggle('expand');
             if (el.classList.contains('flash')) {
                 el.classList.remove('flash');
@@ -76,8 +76,8 @@ function expandGroups(event) {
     });
 }
 
-(function() {
-    window.addEventListener('load', function() {
+(function () {
+    window.addEventListener('load', function () {
         changelog();
         projects();
         features();
